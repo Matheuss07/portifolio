@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #292929;
+  background-image: url("./assets/fundo.png");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; 
+}
