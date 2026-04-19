@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
   width: 100%;
-  background-color: #292929;
-  background-image: url("./assets/fundo.png");
-  background-size: cover;        
-  background-position: center;   
-  background-repeat: no-repeat; 
+  background-color: #0d0914;
+  background-image: 
+    radial-gradient(ellipse at top center, rgba(139, 92, 246, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: #e0e0e0;
+  -webkit-font-smoothing: antialiased;
 }

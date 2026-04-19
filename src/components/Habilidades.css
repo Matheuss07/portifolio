@@ -2,8 +2,11 @@
   width: 300px;
   padding: 40px 25px;
 
-  background: #2c2f3f;
-  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(30, 20, 50, 0.8) 0%, rgba(15, 10, 25, 0.8) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 20px;
 
   display: flex;
   flex-direction: column;
@@ -11,13 +14,14 @@
   text-align: center;
 
   transition: 0.3s;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  border-color: #8b5cf6;
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.15);
 }
 
 .card-icon {
@@ -27,16 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: 2px solid #fff;
-  border-radius: 10px;
-
   margin-bottom: 20px;
 }
 
 .card-icon img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   object-fit: contain;
 }
 

@@ -27,11 +27,12 @@ function App() {
           </div>
 
           <div className='texto'>
+            <p className='hello-text'>Hello! I Am <span>Matheus Luna</span></p>
             <h1>
-              Hello, I'm <span>Matheus</span>
+              A Software Engineer
             </h1>
 
-            <p>
+            <p className='desc-text'>
               Desenvolvedor de Software com sólida base em lógica de programação, desenvolvimento web e automação, criando soluções eficientes e bem estruturadas.
             </p>
 

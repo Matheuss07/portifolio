@@ -32,16 +32,32 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 60px;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #ccc;
-  font-size: 4vh;
+  color: #e0e0e0;
+  font-size: 18px;
   transition: 0.3s;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #8b5cf6;
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #0073ff;
+  color: #8b5cf6;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
